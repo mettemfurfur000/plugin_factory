@@ -1,0 +1,1 @@
+new_plugin.sh TestPlugin - creates a test plugin for your thing
