@@ -7,7 +7,7 @@ cp makefile ${NAME}/
 cp watch.sh ${NAME}/
 cp Main.cs ${NAME}/src
 cp Config.cs ${NAME}/src/config
-cp template.csproj ${NAME}/${NAME}.csproj
+cp project.csproj ${NAME}/
 
 find ${NAME}/ -type f -name "*" -exec sed -i "s/template/${NAME}/g" {} +
 find ${NAME}/ -type f -name "*" -exec sed -i "s/username/${USER}/g" {} +
